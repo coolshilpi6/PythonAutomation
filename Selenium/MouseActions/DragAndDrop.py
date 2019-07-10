@@ -1,3 +1,6 @@
+"""
+This test automates drag and drop
+"""
 import time
 
 from selenium import webdriver

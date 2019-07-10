@@ -1,3 +1,6 @@
+"""
+This test automates right click
+"""
 import time
 
 from selenium import webdriver

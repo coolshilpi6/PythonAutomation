@@ -1,3 +1,6 @@
+"""
+This Test automates mouse hover
+"""
 import time
 
 from selenium import webdriver

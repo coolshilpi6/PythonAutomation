@@ -1,3 +1,6 @@
+"""
+This tests shows the drop and down automation using selenium
+"""
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
@@ -14,7 +17,7 @@ drp.select_by_value("Radio-2")
 
 # Count no of options
 print(len(drp.options))
-options=[x.text for x in drp.options]
+options = [x.text for x in drp.options]
 # Capture all the options and print
 print(*options, sep=", ")
 
